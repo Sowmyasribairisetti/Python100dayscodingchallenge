@@ -1,35 +1,32 @@
-### Condition Check
-Learn to use conditionals in Python to check a conditions and tell the computer what to do in each case. 
-e.g.
 
-`if <this condition is true>:`
+### Write a Pizza Delivery Program
 
-&nbsp;&nbsp;&nbsp;&nbsp;`<then execute this line of code>`
+Congratulations, you've got a job at Python Pizza! Your first job is to build an automatic pizza order program.
 
-### What if the condition is false?
-The else keyword is used to define a block of code that will execute if the condition checked in the if statement is false.
+Based on a user's order, work out their final bill. Use the `input()` function to get a user's preferences and then add up the total for their order and tell them how much they have to pay.
 
-`if pigs can fly:`
+Small pizza (S): $15
 
-&nbsp;&nbsp;&nbsp;&nbsp;`<Some code that will never execute>`
+Medium pizza (M): $20
 
-`else:`
+Large pizza (L): $25
 
-&nbsp;&nbsp;&nbsp;&nbsp;`print("This is real life")`
+Add pepperoni for small pizza (Y or N): +$2
 
-### Python Indentation
-Understand the importance of indentation in Python as a way to make certain lines of code subsidaries of other lines of code.
+Add pepperoni for medium or large pizza (Y or N): +$3
 
-e.g.
+Add extra cheese for any size pizza (Y or N): +$1
 
-`if 5 > 2: #This is a parent line of code`
+##### Example Interaction
 
-&nbsp;&nbsp;&nbsp;&nbsp;`print("yes") #this is a child line of code`
+```
+Welcome to Python Pizza Deliveries!
+What size pizza do you want? S, M or L: L
+Do you want pepperoni on your pizza? Y or N: Y
+Do you want extra cheese? Y or N: N
+Your final bill is: $28.
+```
 
-### Comparator Operators
-* `>` Greater than
-* `<` Less than
-* `>=` Greater than or equal to
-* `<=` Less than or equal to
-* `==` Equal to
-* `!=` Not equal to
+<div class="hint">
+  Don't change any of the starting code and make sure that the final sentence says "Your final bill is: $<bill amount>." including the full stop and the same wording. Otherwise, the tests will not pass.
+</div>
