@@ -1,22 +1,11 @@
-type: edu
+type: theory
 files:
   - name: task.py
     visible: true
     learner_created: false
-  - name: tests/test_task.py
-    visible: false
-    learner_created: false
-  - name: __init__.py
-    visible: false
-    learner_created: false
-  - name: tests/__init__.py
-    visible: false
-    learner_created: false
   - name: solution.py
     visible: true
     learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: "Fri, 07 Mar 2025 12:55:12 UTC"
+status: Unchecked
 record: -1
+post_submission_on_open: true
